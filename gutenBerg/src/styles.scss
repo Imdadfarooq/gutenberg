@@ -1,1 +1,162 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "MontserratThin";
+  src: url("assets/fonts/Montserrat-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratThinItalic";
+  src: url("assets/fonts/Montserrat-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MontserratExtraLight";
+  src: url("assets/fonts/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratExtraLightItalic";
+  src: url("assets/fonts/Montserrat-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MontserratLight";
+  src: url("assets/fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratLightItalic";
+  src: url("assets/fonts/Montserrat-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MontserratRegular";
+  src: url("assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratItalic";
+  src: url("assets/fonts/Montserrat-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MontserratMedium";
+  src: url("assets/fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratMediumItalic";
+  src: url("assets/fonts/Montserrat-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: url("assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratSemiBoldItalic";
+  src: url("assets/fonts/Montserrat-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src: url("assets/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratBoldItalic";
+  src: url("assets/fonts/Montserrat-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MontserratExtraBold";
+  src: url("assets/fonts/Montserrat-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratExtraBoldItalic";
+  src: url("assets/fonts/Montserrat-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MontserratBlack";
+  src: url("assets/fonts/Montserrat-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratBlackItalic";
+  src: url("assets/fonts/Montserrat-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+:root {
+  --primary-color: #5e56e7;
+  --secondary-color: #f8f7ff;
+  --greys-color1: #f0f0f6;
+  --greys-color2: #a0a0a0;
+  --black-color: #333333;
+}
+
+body {
+  font-family: "MontserratRegular";
+  font-size: 16px;
+}
+h1 {
+  font-family: "MontserratSemiBold";
+  font-size: 48px;
+}
+h2 {
+  font-family: "MontserratSemiBold";
+  font-size: 20px;
+}
+.genreCard {
+  font-family: "MontserratRegular";
+  font-size: 20px;
+}
+.search-box {
+  font-family: "MontserratRegular";
+  font-size: 16px;
+}
+
+.book-name {
+  font-family: "MontserratRegular";
+  font-size: 12px;
+}
+.author {
+  font-family: "MontserratRegular";
+  font-size: 12px;
+}
