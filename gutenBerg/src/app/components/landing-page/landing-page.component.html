@@ -1,1 +1,35 @@
-<p>landing-page works!</p>
+<div class="container">
+    <div class="header">
+        <div class="header__content">
+            <h1 class="header__title">Gutenberg Project</h1>
+            <p class="header__description">
+                A social cataloging website that allows you to freely search its
+                database of books, annotations, and reviews
+            </p>
+        </div>
+    </div>
+    <div class="body">
+        <div class="body__content">
+            <div class="genre-list">
+                <div class="genre-list__column">
+                    <div class="genre-card" *ngFor="let item of cardData">
+                        <div class="genre-card__info">
+                            <img [src]="item.icon" class="genre-card__icon" alt="{{ item.title }}" />
+                            <p class="genre-card__title">{{ item.title }}</p>
+                        </div>
+                        <img [src]="item.nextIcon" class="genre-card__next-icon" alt="icon" />
+                    </div>
+                </div>
+                <div class="genre-list__column">
+                    <div class="genre-card" *ngFor="let item of cardData2">
+                        <div class="genre-card__info">
+                            <img [src]="item.icon" class="genre-card__icon" alt="{{ item.title }}" />
+                            <p class="genre-card__title">{{ item.title }}</p>
+                        </div>
+                        <img [src]="item.nextIcon" class="genre-card__next-icon" alt="icon" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

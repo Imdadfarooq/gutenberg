@@ -134,10 +134,16 @@
 body {
   font-family: "MontserratRegular";
   font-size: 16px;
+  margin: 20vh 0;
 }
 h1 {
   font-family: "MontserratSemiBold";
   font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p {
+  margin-top: 0;
 }
 h2 {
   font-family: "MontserratSemiBold";
@@ -159,4 +165,9 @@ h2 {
 .author {
   font-family: "MontserratRegular";
   font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin: auto;
+  }
 }
