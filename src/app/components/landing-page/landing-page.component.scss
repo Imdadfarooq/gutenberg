@@ -84,7 +84,8 @@ p {
 @media screen and (max-width: 768px) {
   .header {
     height: auto;
-    padding: 1rem;
+    padding: 5rem 1rem 1rem 1rem;
+    justify-content: flex-start ;
   }
 
   .header__content {
