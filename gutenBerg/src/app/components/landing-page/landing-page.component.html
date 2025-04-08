@@ -12,7 +12,7 @@
         <div class="body__content">
             <div class="genre-list">
                 <div class="genre-list__column">
-                    <div class="genre-card" *ngFor="let item of cardData">
+                    <div class="genre-card" *ngFor="let item of cardData" [routerLink]="[item.url]">
                         <div class="genre-card__info">
                             <img [src]="item.icon" class="genre-card__icon" alt="{{ item.title }}" />
                             <p class="genre-card__title">{{ item.title }}</p>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="genre-list__column">
-                    <div class="genre-card" *ngFor="let item of cardData2">
+                    <div class="genre-card" *ngFor="let item of cardData2" [routerLink]="[item.url]">
                         <div class="genre-card__info">
                             <img [src]="item.icon" class="genre-card__icon" alt="{{ item.title }}" />
                             <p class="genre-card__title">{{ item.title }}</p>

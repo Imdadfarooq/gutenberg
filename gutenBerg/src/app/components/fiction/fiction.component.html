@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="header">
+        <div class="header__content">
+            <div class="flex"> <img src="/assets/images/Back.svg">
+                <h1 class="header__title">Fiction</h1>
+            </div>
+            <div class="search-container" [class.focused]="isFocused">
+                <i class="search-icon fas fa-search"></i>
+                <input type="text" class="search-input" placeholder="Search" [(ngModel)]="searchText"
+                    (focus)="isFocused = true" (blur)="isFocused = false" (input)="onInputChange()">
+                <i class="clear-icon fas fa-times" *ngIf="searchText.length > 0" (click)="clearSearch()"></i>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="body__content">
+
+        </div>
+    </div>
+</div>

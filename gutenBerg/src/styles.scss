@@ -166,8 +166,25 @@ h2 {
   font-family: "MontserratRegular";
   font-size: 12px;
 }
+.container {
+  height: 100%;
+}
+.body {
+  background-color: var(--greys-color1);
+  padding-top: 1rem;
+  height: 500px;
+}
+
+.body__content {
+  max-width: 60%;
+  margin: auto;
+}
+
 @media screen and (max-width: 768px) {
   body {
     margin: auto;
+  }
+  .body__content {
+    max-width: 90%;
   }
 }
